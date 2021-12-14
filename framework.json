@@ -1,6 +1,6 @@
 {
-    "uid": "60e8aa5e-b1eb-4683-a7c9-8f80ac7ab90b",
-    "name": "22_RandomForest",
+    "uid": "61c95aea-eee1-4fdf-a93c-15ea86cf83e9",
+    "name": "26_NeuralNetwork",
     "preprocessing": [
         {
             "categorical": [
@@ -44,6 +44,53 @@
                     ]
                 }
             ],
+            "scale": [
+                {
+                    "scale": [
+                        4.438218088335662,
+                        1.9152773267994698,
+                        0.7776337041905497,
+                        17616.71260610284,
+                        1.3981034629383107,
+                        56.910545586232736,
+                        13.249606479138466,
+                        0.39294630014996024
+                    ],
+                    "mean": [
+                        7.240514469453376,
+                        2017.1372990353698,
+                        1.1035369774919614,
+                        21428.383279742764,
+                        1.8839228295819936,
+                        121.16559485530547,
+                        53.76469453376206,
+                        1.4578135048231509
+                    ],
+                    "var": [
+                        19.697779799629863,
+                        3.6682872385521232,
+                        0.6047141778931153,
+                        310348563.0460227,
+                        1.9546932930800962,
+                        3238.8101989226743,
+                        175.552071852028,
+                        0.15440679480154262
+                    ],
+                    "n_samples_seen": 3110,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
             "scale_y": {
                 "scale": [
                     6058.686352824689
@@ -65,13 +112,31 @@
             "params": {
                 "columns_preprocessing": {
                     "model": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
                     ],
                     "transmission": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
                     ],
                     "fuelType": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
                     ]
                 },
                 "target_preprocessing": [
@@ -122,6 +187,53 @@
                     ]
                 }
             ],
+            "scale": [
+                {
+                    "scale": [
+                        4.4520972892851525,
+                        1.9664370891358562,
+                        0.7860722979950183,
+                        17776.60532423625,
+                        0.9223353707631025,
+                        57.97539659059298,
+                        13.276101177279822,
+                        0.40267126492934324
+                    ],
+                    "mean": [
+                        7.246623794212218,
+                        2017.1189710610931,
+                        1.1080385852090031,
+                        21372.182958199355,
+                        1.2733118971061093,
+                        122.17845659163987,
+                        53.70157556270096,
+                        1.4592604501607715
+                    ],
+                    "var": [
+                        19.821170273260204,
+                        3.866874825529099,
+                        0.6179096576751688,
+                        316007696.85366464,
+                        0.8507025361607097,
+                        3361.14660983654,
+                        176.25486246937066,
+                        0.16214414759979734
+                    ],
+                    "n_samples_seen": 3110,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
             "scale_y": {
                 "scale": [
                     6115.006953469324
@@ -143,13 +255,31 @@
             "params": {
                 "columns_preprocessing": {
                     "model": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
                     ],
                     "transmission": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
                     ],
                     "fuelType": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
                     ]
                 },
                 "target_preprocessing": [
@@ -199,6 +329,53 @@
                         "transmission",
                         "fuelType"
                     ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        4.471902033436357,
+                        1.9457312986897555,
+                        0.7849098529245111,
+                        17543.614467942454,
+                        1.4053174491138958,
+                        58.02239168056016,
+                        12.254179304924383,
+                        0.39983942998765365
+                    ],
+                    "mean": [
+                        7.2745980707395494,
+                        2017.1215434083601,
+                        1.114790996784566,
+                        21512.785852090034,
+                        1.8610932475884245,
+                        121.05787781350482,
+                        53.715305466237936,
+                        1.4606752411575563
+                    ],
+                    "var": [
+                        19.997907796652225,
+                        3.7858702867009226,
+                        0.6160834772179776,
+                        307778408.5997998,
+                        1.974917132783987,
+                        3366.597936332337,
+                        150.16491043723704,
+                        0.1598715697728518
+                    ],
+                    "n_samples_seen": 3110,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
                 }
             ],
             "scale_y": {
@@ -222,13 +399,31 @@
             "params": {
                 "columns_preprocessing": {
                     "model": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
                     ],
                     "transmission": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
                     ],
                     "fuelType": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
                     ]
                 },
                 "target_preprocessing": [
@@ -280,6 +475,53 @@
                     ]
                 }
             ],
+            "scale": [
+                {
+                    "scale": [
+                        4.4326109437667185,
+                        1.9626622052270504,
+                        0.7840878945155754,
+                        17778.031631240872,
+                        1.4008805148985974,
+                        57.70424930217844,
+                        12.703439779113571,
+                        0.3969825055720883
+                    ],
+                    "mean": [
+                        7.192221150755384,
+                        2017.117968498875,
+                        1.112504018000643,
+                        21364.693024750883,
+                        1.8813886210221793,
+                        122.02667952426873,
+                        53.68752812600451,
+                        1.4561877209900354
+                    ],
+                    "var": [
+                        19.648039778800477,
+                        3.852042931826708,
+                        0.614793826325868,
+                        316058408.681401,
+                        1.9624662170225597,
+                        3329.7803875279606,
+                        161.37738222156509,
+                        0.15759510973029311
+                    ],
+                    "n_samples_seen": 3111,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
             "scale_y": {
                 "scale": [
                     5917.374218085854
@@ -301,13 +543,31 @@
             "params": {
                 "columns_preprocessing": {
                     "model": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
                     ],
                     "transmission": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
                     ],
                     "fuelType": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
                     ]
                 },
                 "target_preprocessing": [
@@ -358,6 +618,53 @@
                     ]
                 }
             ],
+            "scale": [
+                {
+                    "scale": [
+                        4.436415351209638,
+                        1.9067234282101413,
+                        0.7832686124819843,
+                        17383.60973000073,
+                        1.4055208751075257,
+                        57.68216918512532,
+                        13.315502128027747,
+                        0.4025841298831809
+                    ],
+                    "mean": [
+                        6.2806171648987466,
+                        2017.1407907425264,
+                        1.1051108968177434,
+                        21306.81292189007,
+                        1.8540662166505946,
+                        122.58598521375764,
+                        53.8101575056252,
+                        1.4627450980392158
+                    ],
+                    "var": [
+                        19.681781168448534,
+                        3.635594231685434,
+                        0.6135097192994529,
+                        302189887.24497604,
+                        1.9754889303630248,
+                        3327.2326419014207,
+                        177.30259692151148,
+                        0.16207398163379785
+                    ],
+                    "n_samples_seen": 3111,
+                    "n_features_in": 8,
+                    "columns": [
+                        "model",
+                        "year",
+                        "transmission",
+                        "mileage",
+                        "fuelType",
+                        "tax",
+                        "mpg",
+                        "engineSize"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
             "scale_y": {
                 "scale": [
                     6064.2975378784495
@@ -379,13 +686,31 @@
             "params": {
                 "columns_preprocessing": {
                     "model": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "year": [
+                        "scale_normal"
                     ],
                     "transmission": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "mileage": [
+                        "scale_normal"
                     ],
                     "fuelType": [
-                        "categorical_to_int"
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "tax": [
+                        "scale_normal"
+                    ],
+                    "mpg": [
+                        "scale_normal"
+                    ],
+                    "engineSize": [
+                        "scale_normal"
                     ]
                 },
                 "target_preprocessing": [
@@ -399,95 +724,85 @@
     "learners": [
         {
             "library_version": "1.0.1",
-            "algorithm_name": "Random Forest",
-            "algorithm_short_name": "Random Forest",
-            "uid": "dfbe7cca-2f8f-42cf-8e04-a31f753689b2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "4a34d1dd-f1e7-4886-8de2-73160f2dab0c",
             "params": {
-                "model_type": "Random Forest",
+                "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1238,
-                "criterion": "mse",
-                "max_features": 0.6,
-                "min_samples_split": 50,
-                "max_depth": 6,
-                "eval_metric_name": "rmse",
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
                 "explain_level": 1
             },
             "name": "learner_fold_0"
         },
         {
             "library_version": "1.0.1",
-            "algorithm_name": "Random Forest",
-            "algorithm_short_name": "Random Forest",
-            "uid": "5caff49b-eb58-4259-b9c8-4964c9ac1d3a",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "85381607-bf02-41d9-a7aa-1c3a6580b881",
             "params": {
-                "model_type": "Random Forest",
+                "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1238,
-                "criterion": "mse",
-                "max_features": 0.6,
-                "min_samples_split": 50,
-                "max_depth": 6,
-                "eval_metric_name": "rmse",
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
                 "explain_level": 1
             },
             "name": "learner_fold_1"
         },
         {
             "library_version": "1.0.1",
-            "algorithm_name": "Random Forest",
-            "algorithm_short_name": "Random Forest",
-            "uid": "abcdbe5f-0449-471a-a32f-df40968c7a26",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "9f6b2fff-14e6-4897-94f1-c5ef5900dcd4",
             "params": {
-                "model_type": "Random Forest",
+                "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1238,
-                "criterion": "mse",
-                "max_features": 0.6,
-                "min_samples_split": 50,
-                "max_depth": 6,
-                "eval_metric_name": "rmse",
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
                 "explain_level": 1
             },
             "name": "learner_fold_2"
         },
         {
             "library_version": "1.0.1",
-            "algorithm_name": "Random Forest",
-            "algorithm_short_name": "Random Forest",
-            "uid": "c1d90775-6b43-42ef-90e4-20d4e6736a05",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "069fd935-7d2c-400d-be45-2d9ecfa75f5f",
             "params": {
-                "model_type": "Random Forest",
+                "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1238,
-                "criterion": "mse",
-                "max_features": 0.6,
-                "min_samples_split": 50,
-                "max_depth": 6,
-                "eval_metric_name": "rmse",
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
                 "explain_level": 1
             },
             "name": "learner_fold_3"
         },
         {
             "library_version": "1.0.1",
-            "algorithm_name": "Random Forest",
-            "algorithm_short_name": "Random Forest",
-            "uid": "0c023781-c4e5-4435-894e-ca569b01ee12",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "62e1b162-abb9-48e5-9f7f-f1c4973770aa",
             "params": {
-                "model_type": "Random Forest",
+                "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1238,
-                "criterion": "mse",
-                "max_features": 0.6,
-                "min_samples_split": 50,
-                "max_depth": 6,
-                "eval_metric_name": "rmse",
+                "dense_1_size": 32,
+                "dense_2_size": 32,
+                "learning_rate": 0.05,
                 "explain_level": 1
             },
             "name": "learner_fold_4"
@@ -495,24 +810,37 @@
     ],
     "params": {
         "additional": {
-            "trees_in_step": 100,
-            "train_cant_improve_limit": 1,
-            "min_steps": 1,
-            "max_steps": 50,
-            "early_stopping_rounds": 50,
             "max_rows_limit": null,
             "max_cols_limit": null
         },
         "preprocessing": {
             "columns_preprocessing": {
                 "model": [
-                    "categorical_to_int"
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "year": [
+                    "scale_normal"
                 ],
                 "transmission": [
-                    "categorical_to_int"
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "mileage": [
+                    "scale_normal"
                 ],
                 "fuelType": [
-                    "categorical_to_int"
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "tax": [
+                    "scale_normal"
+                ],
+                "mpg": [
+                    "scale_normal"
+                ],
+                "engineSize": [
+                    "scale_normal"
                 ]
             },
             "target_preprocessing": [
@@ -530,21 +858,19 @@
             "results_path": "AutoML_CAR_PRICE"
         },
         "learner": {
-            "model_type": "Random Forest",
+            "model_type": "Neural Network",
             "ml_task": "regression",
             "n_jobs": -1,
             "seed": 1238,
-            "criterion": "mse",
-            "max_features": 0.6,
-            "min_samples_split": 50,
-            "max_depth": 6,
-            "eval_metric_name": "rmse",
+            "dense_1_size": 32,
+            "dense_2_size": 32,
+            "learning_rate": 0.05,
             "explain_level": 1
         },
         "automl_random_state": 1234,
         "ml_task": "regression",
         "explain_level": 1,
-        "name": "22_RandomForest",
+        "name": "26_NeuralNetwork",
         "status": "initialized",
         "final_loss": null,
         "train_time": null,
@@ -552,16 +878,16 @@
         "max_time_for_learner": 12000.0
     },
     "saved": [
-        "22_RandomForest\\learner_fold_0.random_forest",
-        "22_RandomForest\\learner_fold_1.random_forest",
-        "22_RandomForest\\learner_fold_2.random_forest",
-        "22_RandomForest\\learner_fold_3.random_forest",
-        "22_RandomForest\\learner_fold_4.random_forest"
+        "26_NeuralNetwork\\learner_fold_0.neural_network",
+        "26_NeuralNetwork\\learner_fold_1.neural_network",
+        "26_NeuralNetwork\\learner_fold_2.neural_network",
+        "26_NeuralNetwork\\learner_fold_3.neural_network",
+        "26_NeuralNetwork\\learner_fold_4.neural_network"
     ],
-    "predictions_fname": "22_RandomForest\\predictions_out_of_folds.csv",
+    "predictions_fname": "26_NeuralNetwork\\predictions_out_of_folds.csv",
     "metric_name": "rmse",
-    "final_loss": 2046.8291119778485,
-    "train_time": 9.222992420196533,
+    "final_loss": 1907.2163782650705,
+    "train_time": 7.002456188201904,
     "is_stacked": false,
-    "single_prediction_time": 0.11957836151123047
+    "single_prediction_time": 0.07992172241210938
 }
