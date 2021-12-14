@@ -1,49 +1,8 @@
 {
-    "uid": "274edc3f-34bb-4abd-a73c-47ec417627c5",
-    "name": "12_LightGBM",
+    "uid": "203398e0-6f3f-4a5f-8e2d-05e468130bef",
+    "name": "16_CatBoost_RandomFeature",
     "preprocessing": [
         {
-            "categorical": [
-                {
-                    "convert_method": "categorical_to_int",
-                    "convert_params": {
-                        "model": {
-                            " Accent": 0,
-                            " Getz": 1,
-                            " I10": 2,
-                            " I20": 3,
-                            " I30": 4,
-                            " I40": 5,
-                            " I800": 6,
-                            " IX20": 7,
-                            " IX35": 8,
-                            " Ioniq": 9,
-                            " Kona": 10,
-                            " Santa Fe": 11,
-                            " Terracan": 12,
-                            " Tucson": 13,
-                            " Veloster": 14
-                        },
-                        "transmission": {
-                            "Automatic": 0,
-                            "Manual": 1,
-                            "Other": 2,
-                            "Semi-Auto": 3
-                        },
-                        "fuelType": {
-                            "Diesel": 0,
-                            "Hybrid": 1,
-                            "Other": 2,
-                            "Petrol": 3
-                        }
-                    },
-                    "columns": [
-                        "model",
-                        "transmission",
-                        "fuelType"
-                    ]
-                }
-            ],
             "scale_y": {
                 "scale": [
                     6058.686352824689
@@ -62,66 +21,18 @@
                 "scale_method": "scale_normal"
             },
             "ml_task": "regression",
+            "add_random_feature": true,
             "params": {
-                "columns_preprocessing": {
-                    "model": [
-                        "categorical_to_int"
-                    ],
-                    "transmission": [
-                        "categorical_to_int"
-                    ],
-                    "fuelType": [
-                        "categorical_to_int"
-                    ]
-                },
+                "columns_preprocessing": {},
                 "target_preprocessing": [
                     "na_exclude",
                     "scale_normal"
                 ],
-                "ml_task": "regression"
+                "ml_task": "regression",
+                "add_random_feature": true
             }
         },
         {
-            "categorical": [
-                {
-                    "convert_method": "categorical_to_int",
-                    "convert_params": {
-                        "model": {
-                            " Accent": 0,
-                            " Getz": 1,
-                            " I10": 2,
-                            " I20": 3,
-                            " I30": 4,
-                            " I40": 5,
-                            " I800": 6,
-                            " IX20": 7,
-                            " IX35": 8,
-                            " Ioniq": 9,
-                            " Kona": 10,
-                            " Santa Fe": 11,
-                            " Terracan": 12,
-                            " Tucson": 13,
-                            " Veloster": 14
-                        },
-                        "transmission": {
-                            "Automatic": 0,
-                            "Manual": 1,
-                            "Other": 2,
-                            "Semi-Auto": 3
-                        },
-                        "fuelType": {
-                            "Diesel": 0,
-                            "Hybrid": 1,
-                            "Petrol": 2
-                        }
-                    },
-                    "columns": [
-                        "model",
-                        "transmission",
-                        "fuelType"
-                    ]
-                }
-            ],
             "scale_y": {
                 "scale": [
                     6115.006953469324
@@ -140,67 +51,18 @@
                 "scale_method": "scale_normal"
             },
             "ml_task": "regression",
+            "add_random_feature": true,
             "params": {
-                "columns_preprocessing": {
-                    "model": [
-                        "categorical_to_int"
-                    ],
-                    "transmission": [
-                        "categorical_to_int"
-                    ],
-                    "fuelType": [
-                        "categorical_to_int"
-                    ]
-                },
+                "columns_preprocessing": {},
                 "target_preprocessing": [
                     "na_exclude",
                     "scale_normal"
                 ],
-                "ml_task": "regression"
+                "ml_task": "regression",
+                "add_random_feature": true
             }
         },
         {
-            "categorical": [
-                {
-                    "convert_method": "categorical_to_int",
-                    "convert_params": {
-                        "model": {
-                            " Accent": 0,
-                            " Getz": 1,
-                            " I10": 2,
-                            " I20": 3,
-                            " I30": 4,
-                            " I40": 5,
-                            " I800": 6,
-                            " IX20": 7,
-                            " IX35": 8,
-                            " Ioniq": 9,
-                            " Kona": 10,
-                            " Santa Fe": 11,
-                            " Terracan": 12,
-                            " Tucson": 13,
-                            " Veloster": 14
-                        },
-                        "transmission": {
-                            "Automatic": 0,
-                            "Manual": 1,
-                            "Other": 2,
-                            "Semi-Auto": 3
-                        },
-                        "fuelType": {
-                            "Diesel": 0,
-                            "Hybrid": 1,
-                            "Other": 2,
-                            "Petrol": 3
-                        }
-                    },
-                    "columns": [
-                        "model",
-                        "transmission",
-                        "fuelType"
-                    ]
-                }
-            ],
             "scale_y": {
                 "scale": [
                     6075.690708478124
@@ -219,67 +81,18 @@
                 "scale_method": "scale_normal"
             },
             "ml_task": "regression",
+            "add_random_feature": true,
             "params": {
-                "columns_preprocessing": {
-                    "model": [
-                        "categorical_to_int"
-                    ],
-                    "transmission": [
-                        "categorical_to_int"
-                    ],
-                    "fuelType": [
-                        "categorical_to_int"
-                    ]
-                },
+                "columns_preprocessing": {},
                 "target_preprocessing": [
                     "na_exclude",
                     "scale_normal"
                 ],
-                "ml_task": "regression"
+                "ml_task": "regression",
+                "add_random_feature": true
             }
         },
         {
-            "categorical": [
-                {
-                    "convert_method": "categorical_to_int",
-                    "convert_params": {
-                        "model": {
-                            " Accent": 0,
-                            " Getz": 1,
-                            " I10": 2,
-                            " I20": 3,
-                            " I30": 4,
-                            " I40": 5,
-                            " I800": 6,
-                            " IX20": 7,
-                            " IX35": 8,
-                            " Ioniq": 9,
-                            " Kona": 10,
-                            " Santa Fe": 11,
-                            " Terracan": 12,
-                            " Tucson": 13,
-                            " Veloster": 14
-                        },
-                        "transmission": {
-                            "Automatic": 0,
-                            "Manual": 1,
-                            "Other": 2,
-                            "Semi-Auto": 3
-                        },
-                        "fuelType": {
-                            "Diesel": 0,
-                            "Hybrid": 1,
-                            "Other": 2,
-                            "Petrol": 3
-                        }
-                    },
-                    "columns": [
-                        "model",
-                        "transmission",
-                        "fuelType"
-                    ]
-                }
-            ],
             "scale_y": {
                 "scale": [
                     5917.374218085854
@@ -298,66 +111,18 @@
                 "scale_method": "scale_normal"
             },
             "ml_task": "regression",
+            "add_random_feature": true,
             "params": {
-                "columns_preprocessing": {
-                    "model": [
-                        "categorical_to_int"
-                    ],
-                    "transmission": [
-                        "categorical_to_int"
-                    ],
-                    "fuelType": [
-                        "categorical_to_int"
-                    ]
-                },
+                "columns_preprocessing": {},
                 "target_preprocessing": [
                     "na_exclude",
                     "scale_normal"
                 ],
-                "ml_task": "regression"
+                "ml_task": "regression",
+                "add_random_feature": true
             }
         },
         {
-            "categorical": [
-                {
-                    "convert_method": "categorical_to_int",
-                    "convert_params": {
-                        "model": {
-                            " Getz": 0,
-                            " I10": 1,
-                            " I20": 2,
-                            " I30": 3,
-                            " I40": 4,
-                            " I800": 5,
-                            " IX20": 6,
-                            " IX35": 7,
-                            " Ioniq": 8,
-                            " Kona": 9,
-                            " Santa Fe": 10,
-                            " Terracan": 11,
-                            " Tucson": 12,
-                            " Veloster": 13
-                        },
-                        "transmission": {
-                            "Automatic": 0,
-                            "Manual": 1,
-                            "Other": 2,
-                            "Semi-Auto": 3
-                        },
-                        "fuelType": {
-                            "Diesel": 0,
-                            "Hybrid": 1,
-                            "Other": 2,
-                            "Petrol": 3
-                        }
-                    },
-                    "columns": [
-                        "model",
-                        "transmission",
-                        "fuelType"
-                    ]
-                }
-            ],
             "scale_y": {
                 "scale": [
                     6064.2975378784495
@@ -376,136 +141,118 @@
                 "scale_method": "scale_normal"
             },
             "ml_task": "regression",
+            "add_random_feature": true,
             "params": {
-                "columns_preprocessing": {
-                    "model": [
-                        "categorical_to_int"
-                    ],
-                    "transmission": [
-                        "categorical_to_int"
-                    ],
-                    "fuelType": [
-                        "categorical_to_int"
-                    ]
-                },
+                "columns_preprocessing": {},
                 "target_preprocessing": [
                     "na_exclude",
                     "scale_normal"
                 ],
-                "ml_task": "regression"
+                "ml_task": "regression",
+                "add_random_feature": true
             }
         }
     ],
     "learners": [
         {
-            "library_version": "3.3.1",
-            "algorithm_name": "LightGBM",
-            "algorithm_short_name": "LightGBM",
-            "uid": "159874db-583e-4738-acf4-173d5aea9d59",
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "4eba9cba-3f4f-4b7b-bb7e-f9ac53d688fc",
             "params": {
-                "model_type": "LightGBM",
+                "model_type": "CatBoost",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1236,
-                "objective": "regression",
-                "num_leaves": 63,
-                "learning_rate": 0.2,
-                "feature_fraction": 0.5,
-                "bagging_fraction": 1.0,
-                "min_data_in_leaf": 10,
-                "metric": "rmse",
-                "custom_eval_metric_name": null,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 1.0,
+                "loss_function": "MAE",
+                "eval_metric": "RMSE",
                 "explain_level": 1
             },
-            "name": "learner_fold_0"
+            "name": "learner_fold_0",
+            "best_ntree_limit": 197
         },
         {
-            "library_version": "3.3.1",
-            "algorithm_name": "LightGBM",
-            "algorithm_short_name": "LightGBM",
-            "uid": "efa4cf4c-5dd7-4416-846a-144e3630b4cb",
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "5ffb744b-6b09-4ba7-930a-38c084902c71",
             "params": {
-                "model_type": "LightGBM",
+                "model_type": "CatBoost",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1236,
-                "objective": "regression",
-                "num_leaves": 63,
-                "learning_rate": 0.2,
-                "feature_fraction": 0.5,
-                "bagging_fraction": 1.0,
-                "min_data_in_leaf": 10,
-                "metric": "rmse",
-                "custom_eval_metric_name": null,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 1.0,
+                "loss_function": "MAE",
+                "eval_metric": "RMSE",
                 "explain_level": 1
             },
-            "name": "learner_fold_1"
+            "name": "learner_fold_1",
+            "best_ntree_limit": 163
         },
         {
-            "library_version": "3.3.1",
-            "algorithm_name": "LightGBM",
-            "algorithm_short_name": "LightGBM",
-            "uid": "9adf9775-f6c9-4289-b458-8f483b851954",
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "b12022bd-051e-4f78-9c4f-12448177f603",
             "params": {
-                "model_type": "LightGBM",
+                "model_type": "CatBoost",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1236,
-                "objective": "regression",
-                "num_leaves": 63,
-                "learning_rate": 0.2,
-                "feature_fraction": 0.5,
-                "bagging_fraction": 1.0,
-                "min_data_in_leaf": 10,
-                "metric": "rmse",
-                "custom_eval_metric_name": null,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 1.0,
+                "loss_function": "MAE",
+                "eval_metric": "RMSE",
                 "explain_level": 1
             },
-            "name": "learner_fold_2"
+            "name": "learner_fold_2",
+            "best_ntree_limit": 132
         },
         {
-            "library_version": "3.3.1",
-            "algorithm_name": "LightGBM",
-            "algorithm_short_name": "LightGBM",
-            "uid": "cc13e090-14d1-41af-9127-16ae890629c9",
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "bf2969d5-3959-420b-adaa-0ce2fe85af59",
             "params": {
-                "model_type": "LightGBM",
+                "model_type": "CatBoost",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1236,
-                "objective": "regression",
-                "num_leaves": 63,
-                "learning_rate": 0.2,
-                "feature_fraction": 0.5,
-                "bagging_fraction": 1.0,
-                "min_data_in_leaf": 10,
-                "metric": "rmse",
-                "custom_eval_metric_name": null,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 1.0,
+                "loss_function": "MAE",
+                "eval_metric": "RMSE",
                 "explain_level": 1
             },
-            "name": "learner_fold_3"
+            "name": "learner_fold_3",
+            "best_ntree_limit": 270
         },
         {
-            "library_version": "3.3.1",
-            "algorithm_name": "LightGBM",
-            "algorithm_short_name": "LightGBM",
-            "uid": "7c764f92-43d3-4608-8f97-1785a654fff5",
+            "library_version": "1.0.3",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "82e5422d-5428-4665-8400-ca6ce6b6985f",
             "params": {
-                "model_type": "LightGBM",
+                "model_type": "CatBoost",
                 "ml_task": "regression",
                 "n_jobs": -1,
                 "seed": 1236,
-                "objective": "regression",
-                "num_leaves": 63,
-                "learning_rate": 0.2,
-                "feature_fraction": 0.5,
-                "bagging_fraction": 1.0,
-                "min_data_in_leaf": 10,
-                "metric": "rmse",
-                "custom_eval_metric_name": null,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 1.0,
+                "loss_function": "MAE",
+                "eval_metric": "RMSE",
                 "explain_level": 1
             },
-            "name": "learner_fold_4"
+            "name": "learner_fold_4",
+            "best_ntree_limit": 138
         }
     ],
     "params": {
@@ -516,22 +263,13 @@
             "max_cols_limit": null
         },
         "preprocessing": {
-            "columns_preprocessing": {
-                "model": [
-                    "categorical_to_int"
-                ],
-                "transmission": [
-                    "categorical_to_int"
-                ],
-                "fuelType": [
-                    "categorical_to_int"
-                ]
-            },
+            "columns_preprocessing": {},
             "target_preprocessing": [
                 "na_exclude",
                 "scale_normal"
             ],
-            "ml_task": "regression"
+            "ml_task": "regression",
+            "add_random_feature": true
         },
         "validation_strategy": {
             "validation_type": "kfold",
@@ -542,24 +280,21 @@
             "results_path": "AutoML_CAR_PRICE"
         },
         "learner": {
-            "model_type": "LightGBM",
+            "model_type": "CatBoost",
             "ml_task": "regression",
             "n_jobs": -1,
             "seed": 1236,
-            "objective": "regression",
-            "num_leaves": 63,
-            "learning_rate": 0.2,
-            "feature_fraction": 0.5,
-            "bagging_fraction": 1.0,
-            "min_data_in_leaf": 10,
-            "metric": "rmse",
-            "custom_eval_metric_name": null,
+            "learning_rate": 0.1,
+            "depth": 8,
+            "rsm": 1.0,
+            "loss_function": "MAE",
+            "eval_metric": "RMSE",
             "explain_level": 1
         },
         "automl_random_state": 1234,
         "ml_task": "regression",
         "explain_level": 1,
-        "name": "12_LightGBM",
+        "name": "16_CatBoost_RandomFeature",
         "status": "initialized",
         "final_loss": null,
         "train_time": null,
@@ -567,16 +302,16 @@
         "max_time_for_learner": 12000.0
     },
     "saved": [
-        "12_LightGBM\\learner_fold_0.lightgbm",
-        "12_LightGBM\\learner_fold_1.lightgbm",
-        "12_LightGBM\\learner_fold_2.lightgbm",
-        "12_LightGBM\\learner_fold_3.lightgbm",
-        "12_LightGBM\\learner_fold_4.lightgbm"
+        "16_CatBoost_RandomFeature\\learner_fold_0.catboost",
+        "16_CatBoost_RandomFeature\\learner_fold_1.catboost",
+        "16_CatBoost_RandomFeature\\learner_fold_2.catboost",
+        "16_CatBoost_RandomFeature\\learner_fold_3.catboost",
+        "16_CatBoost_RandomFeature\\learner_fold_4.catboost"
     ],
-    "predictions_fname": "12_LightGBM\\predictions_out_of_folds.csv",
+    "predictions_fname": "16_CatBoost_RandomFeature\\predictions_out_of_folds.csv",
     "metric_name": "rmse",
-    "final_loss": 1801.0897167936466,
-    "train_time": 3.4213523864746094,
+    "final_loss": 1815.7262100595538,
+    "train_time": 46.114529609680176,
     "is_stacked": false,
-    "single_prediction_time": 0.06253361701965332
+    "single_prediction_time": 0.06656694412231445
 }
