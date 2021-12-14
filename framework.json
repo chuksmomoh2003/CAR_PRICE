@@ -1,6 +1,6 @@
 {
-    "uid": "61c95aea-eee1-4fdf-a93c-15ea86cf83e9",
-    "name": "26_NeuralNetwork",
+    "uid": "f10ef01c-45ee-4c9d-8a48-47f03dda91b0",
+    "name": "36_NeuralNetwork",
     "preprocessing": [
         {
             "categorical": [
@@ -726,15 +726,15 @@
             "library_version": "1.0.1",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "4a34d1dd-f1e7-4886-8de2-73160f2dab0c",
+            "uid": "c348e0da-68df-4fb6-8380-d24c76de30dc",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
-                "seed": 1238,
+                "seed": 1236,
                 "dense_1_size": 32,
-                "dense_2_size": 32,
-                "learning_rate": 0.05,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
                 "explain_level": 1
             },
             "name": "learner_fold_0"
@@ -743,15 +743,15 @@
             "library_version": "1.0.1",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "85381607-bf02-41d9-a7aa-1c3a6580b881",
+            "uid": "48f03f7a-ad5c-4bb8-84c0-3b4dc20ad0a3",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
-                "seed": 1238,
+                "seed": 1236,
                 "dense_1_size": 32,
-                "dense_2_size": 32,
-                "learning_rate": 0.05,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
                 "explain_level": 1
             },
             "name": "learner_fold_1"
@@ -760,15 +760,15 @@
             "library_version": "1.0.1",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "9f6b2fff-14e6-4897-94f1-c5ef5900dcd4",
+            "uid": "45ef9fbb-d604-4bbd-8f4c-70a798be96ac",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
-                "seed": 1238,
+                "seed": 1236,
                 "dense_1_size": 32,
-                "dense_2_size": 32,
-                "learning_rate": 0.05,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
                 "explain_level": 1
             },
             "name": "learner_fold_2"
@@ -777,15 +777,15 @@
             "library_version": "1.0.1",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "069fd935-7d2c-400d-be45-2d9ecfa75f5f",
+            "uid": "01a776a4-3984-45a9-b9b8-f6565c59ad3d",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
-                "seed": 1238,
+                "seed": 1236,
                 "dense_1_size": 32,
-                "dense_2_size": 32,
-                "learning_rate": 0.05,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
                 "explain_level": 1
             },
             "name": "learner_fold_3"
@@ -794,15 +794,15 @@
             "library_version": "1.0.1",
             "algorithm_name": "Neural Network",
             "algorithm_short_name": "Neural Network",
-            "uid": "62e1b162-abb9-48e5-9f7f-f1c4973770aa",
+            "uid": "14475840-b97f-4ffb-94e5-4b0f1cf563e3",
             "params": {
                 "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
-                "seed": 1238,
+                "seed": 1236,
                 "dense_1_size": 32,
-                "dense_2_size": 32,
-                "learning_rate": 0.05,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
                 "explain_level": 1
             },
             "name": "learner_fold_4"
@@ -861,16 +861,16 @@
             "model_type": "Neural Network",
             "ml_task": "regression",
             "n_jobs": -1,
-            "seed": 1238,
+            "seed": 1236,
             "dense_1_size": 32,
-            "dense_2_size": 32,
-            "learning_rate": 0.05,
+            "dense_2_size": 16,
+            "learning_rate": 0.01,
             "explain_level": 1
         },
         "automl_random_state": 1234,
         "ml_task": "regression",
         "explain_level": 1,
-        "name": "26_NeuralNetwork",
+        "name": "36_NeuralNetwork",
         "status": "initialized",
         "final_loss": null,
         "train_time": null,
@@ -878,16 +878,16 @@
         "max_time_for_learner": 12000.0
     },
     "saved": [
-        "26_NeuralNetwork\\learner_fold_0.neural_network",
-        "26_NeuralNetwork\\learner_fold_1.neural_network",
-        "26_NeuralNetwork\\learner_fold_2.neural_network",
-        "26_NeuralNetwork\\learner_fold_3.neural_network",
-        "26_NeuralNetwork\\learner_fold_4.neural_network"
+        "36_NeuralNetwork\\learner_fold_0.neural_network",
+        "36_NeuralNetwork\\learner_fold_1.neural_network",
+        "36_NeuralNetwork\\learner_fold_2.neural_network",
+        "36_NeuralNetwork\\learner_fold_3.neural_network",
+        "36_NeuralNetwork\\learner_fold_4.neural_network"
     ],
-    "predictions_fname": "26_NeuralNetwork\\predictions_out_of_folds.csv",
+    "predictions_fname": "36_NeuralNetwork\\predictions_out_of_folds.csv",
     "metric_name": "rmse",
-    "final_loss": 1907.2163782650705,
-    "train_time": 7.002456188201904,
+    "final_loss": 1898.9712614639047,
+    "train_time": 5.8708107471466064,
     "is_stacked": false,
-    "single_prediction_time": 0.07992172241210938
+    "single_prediction_time": 0.08225440979003906
 }
